@@ -3,3 +3,5 @@
 gcovr -r . --html --html-details -o coverage.html
 mkdir coverage
 mv coverage.* coverage
+
+echo "coverage script over"
