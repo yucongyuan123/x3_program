@@ -2,7 +2,7 @@
 ALL_PROJECT_DIR=$PWD
 function build_clean() {
   cd ${ALL_PROJECT_DIR}
-  rm build/ output/ deploy/ -rf
+  rm -rf build/ output/ deploy/ bin/ coverage/
 }
 
 # 1. check clean
