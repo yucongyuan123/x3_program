@@ -1,3 +1,4 @@
+#!/bin/sh
 
 ALL_PROJECT_DIR=$PWD
 function build_clean() {
@@ -32,3 +33,5 @@ function cmake_build() {
 
 build_clean
 cmake_build
+
+cp src/test_json.json build/bin
